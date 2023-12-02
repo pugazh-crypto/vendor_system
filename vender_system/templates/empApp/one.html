@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+<head>
+    <title>vender details</title>
+</head>
+<body>
+    {% if vender_data %}
+    <h1>{% vender_list.name %}</h1>
+    <h1>{% vender_list.address %}</h1>
+    <h1>{% vender_list.vender_code %}</h1>
+    <h1>{% vender_list.on_time_delivery_date %}</h1>
+    <h1>{% vender_list.quality_rating_avg %}</h1>
+    <h1>{% vender_list.fulfillment %}</h1>
+    {% end if %}
+    
+</body>
+</html>
